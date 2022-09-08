@@ -6,8 +6,7 @@ description: this policy will ensure the presence of important files in Microsof
 resource: repository
 where:
 - |
-  repository.name.equals("alsdfjalsdjfasdflajs", StringComparison.InvariantCultureIgnoreCase) 
-  || repository.name.equals("BotBuilder-MicrosoftTeams", StringComparison.InvariantCultureIgnoreCase)
+  repository.name.equals("BotBuilder-MicrosoftTeams", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("BotBuilder-MicrosoftTeams-dotnet", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("BotBuilder-MicrosoftTeams-node", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("ews-java-api", StringComparison.InvariantCultureIgnoreCase)
