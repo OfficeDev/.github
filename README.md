@@ -1,4 +1,4 @@
-# OfficeDev GitHub configuration
+# OfficeDev GitHub configuration 
 
 > Policies and org-wide configuration
 
